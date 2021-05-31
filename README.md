@@ -1,4 +1,5 @@
 # My portfolio
+![Image of my portfolio](https://github.com/adamalbsoul/portfolio-react-app/blob/main/GithubSocial.png)
 
 https://adamalbsoul.netlify.app/
 
@@ -8,4 +9,6 @@ https://adamalbsoul.netlify.app/
 * [Create React App](https://create-react-app.dev/)
 * [Framer Motion](https://www.framer.com/motion/)
 
-![Image of my portfolio](https://github.com/adamalbsoul/portfolio-react-app/blob/main/GithubSocial.png)
+![Image of Lighthouse analysis](https://github.com/adamalbsoul/portfolio-react-app/blob/main/lighthouseDesktop.PNG)
+
+:tada:	Lighthouse score
