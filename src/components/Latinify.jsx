@@ -1,5 +1,6 @@
 import React from "react";
 import Projectpage from "./Projectpage";
+import {Helmet} from "react-helmet";
 
 import image1 from "../images/latin1.webp";
 import image2 from "../images/latin2.webp";
@@ -7,6 +8,11 @@ import image2 from "../images/latin2.webp";
 function Taplingua() {
   return (
     <>
+      <Helmet>
+        <title>Latinify</title>
+        <meta charSet="utf-8" name="description" content="Javascript Chrome extension that converts Cyrillic to Latin script" />
+      </Helmet>
+
       <Projectpage
         title="Latinify"
         tldr="Javascript Chrome extension that converts Cyrillic to Latin script"

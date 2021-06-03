@@ -1,5 +1,6 @@
 import React from "react";
 import Projectpage from "./Projectpage";
+import {Helmet} from "react-helmet";
 
 import image1 from "../images/TL.webp";
 import image2 from "../images/taplinguabuy.webp";
@@ -7,6 +8,11 @@ import image2 from "../images/taplinguabuy.webp";
 function Taplingua() {
   return (
     <>
+      <Helmet>
+        <title>Taplingua</title>
+        <meta charSet="utf-8" name="description" content="Improving the user experience of the Taplingua Android and iOS app" />
+      </Helmet>
+
       <Projectpage
         title="Taplingua"
         tldr="Improving the user experience of the Taplingua Android and iOS app"

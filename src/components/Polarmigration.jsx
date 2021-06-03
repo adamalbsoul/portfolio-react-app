@@ -1,5 +1,6 @@
 import React from "react";
 import Projectpage from "./Projectpage";
+import {Helmet} from "react-helmet";
 
 import image1 from "../images/PM.webp";
 import image2 from "../images/polarmenu.webp";
@@ -7,6 +8,11 @@ import image2 from "../images/polarmenu.webp";
 function Taplingua() {
   return (
     <>
+      <Helmet>
+        <title>Polar Migration</title>
+        <meta charSet="utf-8" name="description" content="Unity game concept using C#, Adobe Mixamo, Adobe Photoshop, Adobe XD, and Adobe Premiere Pro for a trailer made as a part of a campaign for global warming" />
+      </Helmet>
+
       <Projectpage
         title="Polar Migration"
         tldr="Unity game concept using C#, Adobe Mixamo, Adobe Photoshop, Adobe XD, and Adobe Premiere Pro for a trailer made as a part of a campaign for global warming"

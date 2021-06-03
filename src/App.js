@@ -19,6 +19,7 @@ export default function App() {
       <Switch>
         <div className="App">
           <Navbar />
+
           <Route path="/" exact component={Home} />
           <Route path="/taplingua" component={Taplingua} />
           <Route path="/drawingwebapp" component={DrawingWebapp} />

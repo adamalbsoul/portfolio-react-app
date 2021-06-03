@@ -1,5 +1,6 @@
 import React from "react";
 import Projectpage from "./Projectpage";
+import {Helmet} from "react-helmet";
 
 import image1 from "../images/M.webp";
 import image2 from "../images/monumentalui.webp";
@@ -7,6 +8,11 @@ import image2 from "../images/monumentalui.webp";
 function Monumental() {
   return (
     <>
+      <Helmet>
+        <title>Monumental</title>
+        <meta charSet="utf-8" name="description" content="A casual location-based Augmented Reality (AR) mobile game about exploring monuments made in Unity and designed in Adobe XD" />
+      </Helmet>
+
       <Projectpage
         title="Monumental"
         tldr="A casual location-based Augmented Reality (AR) mobile game about exploring monuments made in Unity and designed in Adobe XD"
