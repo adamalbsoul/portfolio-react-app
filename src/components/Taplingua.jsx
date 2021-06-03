@@ -25,7 +25,6 @@ function Taplingua() {
         included optimising the user flow for onboarding, engagement,
         gamification, monetisation, and user retention. The first step was to identify pain points and areas that need improvement through a user-walkthrough. "
         image2={image2}
-        //*synopsis2="Tldr of the doc - "
         button1link="https://play.google.com/store/apps/details?id=com.taplingua.languages&hl=hr&gl=US"
         button1label="Play Store"
         button2link="https://drive.google.com/file/d/1h7mlvBO3krKetggu9gUg9h4r3oJ-qWz4/view?usp=sharing"
