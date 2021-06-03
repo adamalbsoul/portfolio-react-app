@@ -42,7 +42,7 @@ function About() {
         <h3></h3>
         <p>
           Hi! I’m Adam, a fresh graduate from Glasgow Caledonian University with
-          a BSc degree in Computer Games Design.
+          a BSc (Hons) degree in Computer Games Design.
           <br />
           <br />
           Previously, I was a design intern at a large tech firm - S&T and a
