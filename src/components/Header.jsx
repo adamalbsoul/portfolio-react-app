@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 import WaveLine from "./WaveLine";
 import me from "../images/me.webp";
 
-// replace the thil vid with something employable, also add some "scroll down" thing below the button components. Mouse wheel for pc, mobile scroll for phones idk
-
 function Header() {
   return (
     <motion.div
@@ -45,9 +43,9 @@ function Header() {
           transition={{ ease: "easeInOut", delay: 1, duration: 0.5 }}
           initial={{ opacity: 0, y: 50 }}
         >
-          Fresh graduate from Glasgow Caledonian University with a BSc degree in
-          Computer Games Design who creates great user experiences from an
-          interdisciplinary creative perspective.
+          Fresh graduate from Glasgow Caledonian University with a BSc (Hons)
+          degree in Computer Games Design who creates great user experiences
+          from an interdisciplinary creative perspective.
         </motion.p>
         <motion.div
           className="header-btns"
