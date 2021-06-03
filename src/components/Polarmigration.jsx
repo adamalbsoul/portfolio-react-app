@@ -4,6 +4,7 @@ import {Helmet} from "react-helmet";
 
 import image1 from "../images/PM.webp";
 import image2 from "../images/polarmenu.webp";
+import { isNonNullExpression } from "typescript";
 
 function Polarmigration() {
   return (
