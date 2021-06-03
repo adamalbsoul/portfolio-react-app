@@ -93,6 +93,7 @@ nav ul li a:hover {
   transition: all ease 0.2s;
   cursor: pointer;
 }
+
 nav .menu-btn,
 .menu-icon {
   display: none;
@@ -554,6 +555,22 @@ svgline {
   text-align: center;
 }
 
+.menu-social {
+  display: inline-flex;
+  text-align: center;
+  margin: 10px 0px 0px 100px;
+  transition: all ease 0.5s;
+}
+.menu-social li{
+  transition: all ease 0.5s;
+}
+.menu-social li:hover {
+    background: var(--main-bg-color);
+    cursor: pointer;
+    transform: translate(-6px, -6px);
+    transition: all ease 0.5s;
+  }
+
 .footer-social {
   display: inline-flex;
   text-align: center;
@@ -565,11 +582,15 @@ svgline {
   text-decoration: none;
 }
 
-.footer-social a:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--main-bg-color);
+.global-class-name {
+  transition: 0.2s ease-in;
+}
+
+.global-class-name:hover {
+  text-decoration: none;
   cursor: pointer;
-  transition: 0.1s ease-in;
+  transition: 0.2s ease-in;
+  transform: scale(1.2); 
 }
 
 .footer p {
@@ -847,6 +868,13 @@ svgline {
     transform: translate(-50%, -50%);
   }
 
+  .menu-social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-40%);  
+  }
+
   /*Borger*/
 
   .burger {
@@ -979,13 +1007,12 @@ svgline {
   .header-btns {
     margin: 0;
   }
-  .menu {
+.menu {
     display: none;
     position: absolute;
     top: 65px;
     left: 0px;
     background-color: #000000;
-    border-bottom: 4px solid #d0ff00;
     width: 100%;
     padding: 0px;
     margin: 0px;
@@ -1010,7 +1037,6 @@ svgline {
     user-select: none;
   }
   nav .menu-icon .nav-icon {
-    background-color: #d0ff00;
     position: absolute;
     display: block;
     height: 2px;
@@ -1020,7 +1046,6 @@ svgline {
   }
   nav .menu-icon .nav-icon:before,
   nav .menu-icon .nav-icon:after {
-    background: #d0ff00;
     content: "";
     display: block;
     height: 100%;

@@ -1,6 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+import { IconContext } from 'react-icons';
+import { AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillBehanceSquare } from 'react-icons/ai';
+
 import WaveLine from "./WaveLine";
 import me from "../images/me.webp";
 
@@ -47,6 +52,23 @@ function Header() {
           degree in Computer Games Design who creates great user experiences
           from an interdisciplinary creative perspective.
         </motion.p>
+        <motion.div
+          id="social-icons"
+          animate={{
+            opacity: 1,
+            y: 0
+          }}
+          transition={{ ease: "easeInOut", delay: 1, duration: 0.5 }}
+          initial={{ opacity: 0, y: 50 }}
+        >
+          <ul className="menu-social">
+          <IconContext.Provider value={{ color:"#fafafa", size: "2.7em", className: "navigation-social",style: { margin: '0vh 0vh 0vh 2vh'}}}>
+            <li><a href="https://www.behance.net/adamalbsoul/"><AiFillBehanceSquare /></a></li>
+            <li><a href="https://www.linkedin.com/in/adam-albsoul-a85ba6174/"><AiFillLinkedin /></a></li>
+            <li><a href="https://github.com/adamalbsoul/"><AiFillGithub /></a></li>
+          </IconContext.Provider>
+          </ul>
+        </motion.div>
         <motion.div
           className="header-btns"
           animate={{

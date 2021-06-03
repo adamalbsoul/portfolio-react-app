@@ -23,11 +23,15 @@ function Taplingua() {
         research. Interface of the application on Android and iOS was
         redesigned according to Material design guidelines. Work also
         included optimising the user flow for onboarding, engagement,
-        gamification, monetisation, and user retention."
+        gamification, monetisation, and user retention. The first step was to identify pain points and areas that need improvement through a user-walkthrough. "
         image2={image2}
         //*synopsis2="Tldr of the doc - "
         button1link="https://play.google.com/store/apps/details?id=com.taplingua.languages&hl=hr&gl=US"
         button1label="Play Store"
+        button2link="https://drive.google.com/file/d/1h7mlvBO3krKetggu9gUg9h4r3oJ-qWz4/view?usp=sharing"
+        button2label="Document"
+        heading2="Identified pain points"
+        synopsis2="At first the discovery phase was marked by creating a document outlining the areas that need UX/UI improvement. These were analysed and solutions were proposed which were then worked on in Adobe XD for the remainder of the internship period."
       />
     </>
   );

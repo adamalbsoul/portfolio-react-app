@@ -5,7 +5,7 @@ import {Helmet} from "react-helmet";
 import image1 from "../images/latin1.webp";
 import image2 from "../images/latin2.webp";
 
-function Taplingua() {
+function Latinify() {
   return (
     <>
       <Helmet>
@@ -22,10 +22,12 @@ function Taplingua() {
         Works when any page that contains Cyrillic alphabet is loaded and automiatically converts the letters to Latin."
         button1link="https://chrome.google.com/webstore/detail/latinify/clhcmoeloccdehioknhbbdokpkceaoha/overview/"
         button1label="Web Store"
+        button2link="https://github.com/adamalbsoul/latinify"
+        button2label="Github"
         image2={image2}
       />
     </>
   );
 }
 
-export default Taplingua;
+export default Latinify;

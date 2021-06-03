@@ -5,7 +5,7 @@ import {Helmet} from "react-helmet";
 import image1 from "../images/drawing1.webp";
 import image2 from "../images/drawingwebgl.webp";
 
-function Taplingua() {
+function DrawingWebapp() {
   return (
     <>
       <Helmet>
@@ -21,11 +21,14 @@ function Taplingua() {
         synopsis="A web-based drawing app featuring changeable brush colour, changeable brush size, saving as a PNG image. The C# code uses the trail renderer to allow drawing lines with the use of either a swipe on touchscreen devices or mouse movements on computers. It uses Unity's WebGL to run as a webapp in the browser.
         "
         image2={image2}
-        button1link="https://github.com/adamalbsoul/Drawing-Application-With-Save-Feature"
-        button1label="Project"
+        button1link="https://adamalbsoul.github.io/Unity-Paint-WebGL/"
+        button1label="Play"
+        button2link="https://github.com/adamalbsoul/Drawing-Application-With-Save-Feature"
+        button2label="Github"
+
       />
     </>
   );
 }
 
-export default Taplingua;
+export default DrawingWebapp;

@@ -4,8 +4,9 @@ import {Helmet} from "react-helmet";
 
 import image1 from "../images/PM.webp";
 import image2 from "../images/polarmenu.webp";
+import { isNonNullExpression } from "typescript";
 
-function Taplingua() {
+function Polarmigration() {
   return (
     <>
       <Helmet>
@@ -21,10 +22,12 @@ function Taplingua() {
         "
         button1link="https://www.youtube.com/watch?v=d1-qaaGA0a4"
         button1label="Trailer"
+        button2link="https://drive.google.com/file/d/1OkWTnkuRKbeyznfGbV8UoYS4fD75zso6/view"
+        button2label="Infographic"
         image2={image2}
       />
     </>
   );
 }
 
-export default Taplingua;
+export default Polarmigration;

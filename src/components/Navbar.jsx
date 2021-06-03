@@ -1,10 +1,7 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link } from "react-router-dom";
-
 import logo from "../images/logosvg.svg";
-
-// add mobile hamborger menu with useState or sum
 
 function Navbar() {
   return (
@@ -34,10 +31,7 @@ function Navbar() {
                 About
               </ScrollLink>
             </li>
-          </ul>
-          <ScrollLink to="#" className="burger">
-            🍔
-          </ScrollLink>
+            </ul>
         </nav>
       </div>
     </>

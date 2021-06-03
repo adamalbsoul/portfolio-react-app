@@ -88,8 +88,9 @@ function Projectpage(props) {
           <h2>Synopsis</h2>
           <p>{props.synopsis}</p>
           <img src={props.image2} alt="second" className="project-image" />
+          <h2>{props.heading2}</h2>
           <p>{props.synopsis2}</p>
-          <div className="b-container">
+          <div className="header-btns">
             <a
               href={props.button1link}
               target="_blank"
@@ -97,6 +98,15 @@ function Projectpage(props) {
               className="cv-btn"
             >
               {props.button1label}
+            </a>
+            <br/>
+            <a
+              href={props.button2link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cv-btn1"
+            >
+              {props.button2label}
             </a>
           </div>
         </motion.div>
