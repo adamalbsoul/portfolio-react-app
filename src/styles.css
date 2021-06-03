@@ -287,6 +287,13 @@ svgline {
   margin-right: auto;
 }
 
+#project-btn-container {
+  display: flex;
+  margin: 3em;
+  justify-content: center;
+  align-content: center;
+}
+
 .project-body h1 {
   color: var(--highlight);
   font-size: 3rem;
@@ -578,6 +585,7 @@ svgline {
 
 .footer-social p {
   padding: 0 10px;
+  margin: -280px 0px 0px 0px;
   color: var(--main-bg-color);
   text-decoration: none;
 }

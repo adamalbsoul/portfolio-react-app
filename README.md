@@ -1,7 +1,7 @@
 # My portfolio
 ![Image of my portfolio](https://github.com/adamalbsoul/portfolio-react-app/blob/main/GithubSocial.png)
 
-Continuous Deployment from a Git repository from here for Netlify:
+Continuous Deployment from this Git repository to Netlify:
 https://adamalbsoul.netlify.app/
 
 :hammer: Built With:
