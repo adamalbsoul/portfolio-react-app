@@ -30,7 +30,7 @@ function Taplingua() {
         button1label="Play Store"
         button2link="https://drive.google.com/file/d/1h7mlvBO3krKetggu9gUg9h4r3oJ-qWz4/view?usp=sharing"
         button2label="Document"
-        heading2="Identified pain points"
+        heading2="Analysis"
         synopsis2="At first the discovery phase was marked by creating a document outlining the areas that need UX/UI improvement. These were analysed and solutions were proposed which were then worked on in Adobe XD for the remainder of the internship period."
       />
     </>
