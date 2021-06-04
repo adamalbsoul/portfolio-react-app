@@ -49,6 +49,7 @@ function Services() {
           label="View"
           title="Taplingua"
           image={image1}
+          alt="Taplingua hero"
           discipline="UX/UI and Product Design"
           tldr="UI/UX designs for a gamified language learning Android/iOS app done during my internship."
           path="/Taplingua"
@@ -58,6 +59,7 @@ function Services() {
           label="View"
           title="Drawing webapp"
           image={image4}
+          alt="DrawingApp hero"
           discipline="UX/UI and Product Design"
           tldr="A drawing webapp running on WebGL made using C# and Unity.
           "
@@ -68,6 +70,7 @@ function Services() {
           label="View"
           title="Latinify Chrome extension"
           image={image5}
+          alt="Latinify extension hero"
           discipline="UX/UI and Product Design"
           tldr="A Chrome extension written in Javascript that converts Cyrillic to Latin script.
           "
@@ -78,6 +81,7 @@ function Services() {
         <Card
           title="Polar Migration"
           image={image3}
+          alt="Polar Migration hero"
           discipline="UX/UI and Product Design"
           tldr="Campaign that bridges fun and online activism. Made for a design brief set by Rare & Xbox Game Studios"
           path="/Polarmigration"
@@ -86,6 +90,7 @@ function Services() {
         <Card
           title="Monumental"
           image={image2}
+          alt="Monumental hero"
           discipline="UX/UI and Product Design"
           tldr="Designs for ‘Monumental’, a location-based Augmented Reality (AR) Android game
           "
