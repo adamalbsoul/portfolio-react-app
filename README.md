@@ -10,6 +10,6 @@ https://adamalbsoul.netlify.app/
 * [Create React App](https://create-react-app.dev/)
 * [Framer Motion](https://www.framer.com/motion/)
 
-![Image of Lighthouse report](https://github.com/adamalbsoul/portfolio-react-app/blob/main/lighthouseDesktop.PNG)
+![Image of Lighthouse report](https://github.com/adamalbsoul/portfolio-react-app/blob/main/lighthouse.PNG)
 
 :tada:	Lighthouse score
