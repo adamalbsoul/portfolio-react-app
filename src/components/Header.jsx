@@ -104,6 +104,7 @@ function Header() {
           transition={{ ease: "easeInOut", delay: 1, duration: 0.5 }}
           initial={{ opacity: 0, y: -200, x: 650 }}
           className="video"
+          alt="moving image of me"
           loop
         />
       </div>
