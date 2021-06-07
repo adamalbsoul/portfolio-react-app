@@ -88,8 +88,8 @@ function Projectpage(props) {
           <h2>Synopsis</h2>
           <p>{props.synopsis}</p>
           <img src={props.image2} alt="second" className="project-image" />
-          <h2>{props.heading2}</h2>
-          <p>{props.synopsis2}</p>
+          <h2 style={props.style}>{props.heading2}</h2>
+          <p style={props.style}>{props.synopsis2}</p>
           <div id="project-btn-container">
             <a
               href={props.button1link}

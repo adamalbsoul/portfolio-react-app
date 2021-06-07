@@ -25,7 +25,7 @@ function DrawingWebapp() {
         button1label="Play"
         button2link="https://github.com/adamalbsoul/Drawing-Application-With-Save-Feature"
         button2label="Github"
-
+        style={{display: "none"}}
       />
     </>
   );

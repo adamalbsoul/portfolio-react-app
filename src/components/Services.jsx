@@ -45,6 +45,15 @@ function Services() {
         <p></p>
       </div>
       <motion.div ref={ref} animate={animation} className="b-container">
+      <Card
+          title="Polar Migration"
+          image={image3}
+          alt="Polar Migration hero"
+          discipline="UX/UI and Product Design"
+          tldr="Campaign website for Polar Migration - a game concept that bridges fun and online activism"
+          path="/Polarmigration"
+          link="<Polarmigration/>"
+        />
         <Card
           label="View"
           title="Taplingua"
@@ -76,16 +85,6 @@ function Services() {
           "
           path="/Latinify"
           link="<Latinify/>"
-        />
-
-        <Card
-          title="Polar Migration"
-          image={image3}
-          alt="Polar Migration hero"
-          discipline="UX/UI and Product Design"
-          tldr="Campaign that bridges fun and online activism. Made for a design brief set by Rare & Xbox Game Studios"
-          path="/Polarmigration"
-          link="<Polarmigration/>"
         />
         <Card
           title="Monumental"

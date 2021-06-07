@@ -25,6 +25,7 @@ function Latinify() {
         button2link="https://github.com/adamalbsoul/latinify"
         button2label="Github"
         image2={image2}
+        style={{display: "none"}}
       />
     </>
   );
