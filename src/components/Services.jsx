@@ -50,7 +50,7 @@ function Services() {
           image={image3}
           alt="Polar Migration hero"
           discipline="UX/UI and Product Design"
-          tldr="Campaign website for Polar Migration - a game concept that bridges fun and online activism"
+          tldr="Campaign for Polar Migration - a game concept that bridges fun and online activism"
           path="/Polarmigration"
           link="<Polarmigration/>"
         />
