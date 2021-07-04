@@ -55,6 +55,16 @@ function Services() {
           link="<Polarmigration/>"
         />
         <Card
+          title="Monumental"
+          image={image2}
+          alt="Monumental hero"
+          discipline="UX/UI and Product Design"
+          tldr="Designs for ‘Monumental’, a location-based Augmented Reality (AR) Android game
+          "
+          path="/Monumental"
+          link="<Monumental/>"
+        />
+        <Card
           label="View"
           title="Taplingua"
           image={image1}
@@ -86,16 +96,7 @@ function Services() {
           path="/Latinify"
           link="<Latinify/>"
         />
-        <Card
-          title="Monumental"
-          image={image2}
-          alt="Monumental hero"
-          discipline="UX/UI and Product Design"
-          tldr="Designs for ‘Monumental’, a location-based Augmented Reality (AR) Android game
-          "
-          path="/Monumental"
-          link="<Monumental/>"
-        />
+        
       </motion.div>
     </div>
   );
