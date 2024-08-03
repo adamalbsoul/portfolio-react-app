@@ -11,6 +11,7 @@ import DrawingWebapp from "./components/DrawingWebapp";
 import Latinify from "./components/Latinify";
 import Polarmigration from "./components/Polarmigration";
 import Monumental from "./components/Monumental";
+import Sds from "./components/sds";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Navbar />
 
           <Route path="/" exact component={Home} />
+          <Route path="/sds" component={sds} />
           <Route path="/taplingua" component={Taplingua} />
           <Route path="/drawingwebapp" component={DrawingWebapp} />
           <Route path="/latinify" component={Latinify} />
