@@ -333,7 +333,7 @@ svgline {
 
 .project-desc p {
   color: var(--highlight);
-  padding: 50px 150px;
+  padding: 50px 20px;
   width: 100%;
   justify-content: center;
   align-content: center;
@@ -736,6 +736,9 @@ svgline {
     align-content: center;
     width: 100%;
     margin: -20px 0px 0px 0px;
+    font-size: 1.2rem;
+    color: var(--secondary-text);
+
   }
 
   .project-desc p {
@@ -746,6 +749,9 @@ svgline {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1.2rem;
+    color: var(--secondary-text);
+
   }
 
   /**Cards **/
