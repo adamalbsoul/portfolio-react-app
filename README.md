@@ -13,3 +13,20 @@ https://adamalbsoul.netlify.app/
 ![Image of Lighthouse report](https://github.com/adamalbsoul/portfolio-react-app/blob/main/lighthouse.PNG)
 
 :tada:	Lighthouse score
+
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm start
+   ```
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+
+Ensure that Node.js and npm are installed on your system.

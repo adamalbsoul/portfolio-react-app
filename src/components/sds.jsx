@@ -5,7 +5,7 @@ import {Helmet} from "react-helmet";
 import image1 from "../images/M.webp";
 import image2 from "../images/monumentalui.webp";
 
-function Monumental() {
+function Sds() {
   return (
     <>
       <Helmet>
@@ -83,4 +83,4 @@ To address this issue, I incorporated the following Figma features into each of 
   );
 }
 
-export default sds;
+export default Sds;

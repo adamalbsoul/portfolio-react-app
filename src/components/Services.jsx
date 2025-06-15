@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 import { useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-// add services/workflow and add subpages with case studies. Mb make better button components idk
-
 import Card from "./Card";
 
 import image1 from "../images/TL.webp";
@@ -35,7 +33,6 @@ function Services() {
         transition: { duration: 0.5, ease: "easeInOut" }
       });
     }
-    console.log("Use effect hook, in View", inView);
   }, [inView]);
 
   return (

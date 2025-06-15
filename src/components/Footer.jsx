@@ -6,14 +6,12 @@ import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillBehanceSquare } from 'react-icons/ai';
 
-// change id n shit, make it black mb
-
 function Footer() {
   return (
     <div id="subscribe">
       <h3>Stay in touch </h3>
       <IconContext.Provider value={{ color: "#1b1b1b", size: "2em", className: "global-class-name" }}>
-        <div class="footer-social">
+        <div className="footer-social">
           <a href="https://www.behance.net/adamalbsoul/">
             <p><AiFillBehanceSquare /></p>
           </a>
@@ -26,7 +24,7 @@ function Footer() {
           </a>
         </div>
       </IconContext.Provider>
-      <div class="footer">
+      <div className="footer">
         <Link to="/" smooth={true}>
           <p>Home</p>
         </Link>
