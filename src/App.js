@@ -22,7 +22,7 @@ export default function App() {
           <Navbar />
 
           <Route path="/" exact component={Home} />
-          <Route path="/sds" component={sds} />
+          <Route path="/sds" component={Sds} />
           <Route path="/taplingua" component={Taplingua} />
           <Route path="/drawingwebapp" component={DrawingWebapp} />
           <Route path="/latinify" component={Latinify} />

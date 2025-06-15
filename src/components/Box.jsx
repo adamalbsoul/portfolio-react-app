@@ -1,5 +1,4 @@
 import React from "react";
-// this is shit, delet this
 
 function Box(props) {
   return (

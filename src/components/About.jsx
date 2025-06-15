@@ -29,7 +29,6 @@ function About() {
         transition: { duration: 0.5, ease: "easeInOut" }
       });
     }
-    console.log("Use effect hook, in View", inView);
   }, [inView]);
 
   return (
